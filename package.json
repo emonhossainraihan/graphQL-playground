@@ -1,0 +1,24 @@
+{
+  "name": "hackernews-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "engines": {
+    "node": "14.10.0",
+    "yarn": "1.22.5"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@prisma/cli": "^2.6.2"
+  },
+  "dependencies": {
+    "@prisma/client": "^2.6.2",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "jsonwebtoken": "^8.5.1",
+    "graphql-yoga": "^1.18.3"
+  }
+}
